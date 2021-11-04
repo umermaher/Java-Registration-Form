@@ -1,4 +1,4 @@
-package guiassignment;
+package registrationform;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -16,7 +16,7 @@ public class ConnectWithDB {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Diver loaded");
-            con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root","root");
+            con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root","");
             System.out.println("Database Connected");
             insertDataIntoSQL();
         } catch (ClassNotFoundException ex) {

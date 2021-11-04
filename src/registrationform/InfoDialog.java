@@ -1,4 +1,4 @@
-package guiassignment;
+package registrationform;
 
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;

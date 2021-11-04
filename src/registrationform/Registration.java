@@ -1,4 +1,4 @@
-package guiassignment;
+package registrationform;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -38,7 +38,7 @@ public class Registration extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setSize(450,500);
         this.setLayout(new BorderLayout());
-        frameIcon=new ImageIcon("F:\\studentIcon.png"); //frame logo
+        frameIcon=new ImageIcon("studentIcon.png"); //frame logo
         
         this.setIconImage(frameIcon.getImage());
         this.addPanels();        //add and set panels to the frame which contain other components
@@ -74,7 +74,8 @@ public class Registration extends JFrame{
     }
     
     public void addTitleAndIcon(){
-        icon=new ImageIcon("F:\\SW 2nd SEM\\OOP Theory\\gui assignment\\studentIcon.png");
+       // icon=new ImageIcon("F:\\SW 2nd SEM\\OOP Theory\\gui assignment\\studentIcon.png");
+        icon=new ImageIcon("studentIcon.png");
         title=new JLabel("Admit Slip");
         subTitle=new JLabel("  Registration");
         title.setPreferredSize(new Dimension(260,50));

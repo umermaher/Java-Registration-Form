@@ -1,5 +1,5 @@
 
-package guiassignment;
+package registrationform;
 
 public class Main {
     
