@@ -16,7 +16,7 @@ public class ConnectWithDB {
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
             System.out.println("Diver loaded");
-            con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root","");
+            con=(Connection)DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "root","root");
             System.out.println("Database Connected");
             insertDataIntoSQL();
         } catch (ClassNotFoundException ex) {
